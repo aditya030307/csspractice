@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1530px;
+            height: 700px;
+            /* border: 2px solid black;    */
+            margin: 10px;  
+            display: grid;
+            grid-template-columns: repeat(4,1fr);      
+            grid-template-rows: repeat(2,1fr);
+        }
+        .item{
+            /* border: 1px solid black; */
+        }
+        .item1{
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        .item img{
+            width: 100%;
+            height: 100%;
+
+            /* background-image: url('https://www.thespruce.com/thmb/_xQMAqSNbX2bjnfXDKOdtaZRFaI=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg'); */
+            
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="item item1"><img src="https://www.thespruce.com/thmb/_xQMAqSNbX2bjnfXDKOdtaZRFaI=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg" alt=""></div>
+            <div class="item item2"><img src="https://plus.unsplash.com/premium_photo-1676823547752-1d24e8597047?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D" alt=""></div>
+            <div class="item item3"><img src="https://images.woodenstreet.de/image/data%2FLooks%2F1.jpg" alt=""></div>
+            <div class="item item4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfYOanp7elcrB9isaRcRAdm6mjRIMAjy3ckA&s" alt=""></div>
+            <div class="item item5"><img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?cs=srgb&dl=pexels-jvdm-1457842.jpg&fm=jpg" alt=""></div>
+    </div>
+</body>
+</html>
